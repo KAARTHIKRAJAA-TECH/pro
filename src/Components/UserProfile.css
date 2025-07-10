@@ -1,0 +1,63 @@
+
+.profile-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-header h2 {
+  color: #333;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background-color: #e53935;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c62828;
+}
+
+.orders-title {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #555;
+}
+
+.order-card {
+  background-color: #f9f9f9;
+  border-left: 6px solid #4CAF50;
+  padding: 16px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+.order-card p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.order-card ul {
+  padding-left: 20px;
+}
+
+.order-card li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}

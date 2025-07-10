@@ -11,3 +11,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Menu {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  text-align: center;
+}
+.card{
+    background-image:url('C:\Users\kaart\Desktop\Myspace\myspace\src\Components\assets\bb.jpeg') ;
+    background-size: 5;
+    opacity: 2;
+    max-width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+}
+.card img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  border-radius: 10px;
+} 
+.card p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+.menu{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+  background: radial-gradient(circle at top left,rgb(10, 219, 234));
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+}
+.card button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.card button:hover {
+  background-color: #2980b9;
+}
+.add-to-cart-container button {
+  background-color: #2ecc71;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* App.css or your component CSS file */
+.love-heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.5rem;
+  color: #d81b60;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 1px 1px 10px #f8bbd0;
+}
+
+
+

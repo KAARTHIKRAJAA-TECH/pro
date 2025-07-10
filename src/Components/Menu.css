@@ -1,0 +1,14 @@
+.profile-icon {
+  position:fixed;
+  top: 15px;
+  margin-left: 1300px;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
